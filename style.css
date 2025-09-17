@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: skyblue;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+canvas {
+  background: linear-gradient(to bottom, #87ceeb, #e0f7fa);
+  border: 2px solid #000;
+  border-radius: 10px;
+}
